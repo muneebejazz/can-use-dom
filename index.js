@@ -3,5 +3,4 @@ var canUseDOM = !!(
   window.document &&
   window.document.createElement
 );
-
-module.exports = canUseDOM;
+export default canUseDom;
